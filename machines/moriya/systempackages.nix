@@ -5,8 +5,6 @@
     ];
 
     environment.systemPackages = with pkgs; [
-        tor
-        tor-browser
         python3
         pkgs.gnome-tweaks
         luarocks
@@ -15,7 +13,6 @@
         gcc
         zig
         nwg-look
-        obsidian
         fastfetch
     ];
 }
